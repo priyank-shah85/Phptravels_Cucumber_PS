@@ -1,0 +1,24 @@
+01:19:12.309 [main] INFO  stepDefinitions.HomePageSteps - element click intercepted: Element is not clickable at point (435, 1154)
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ffb55988dc3d6547a21f548de5eb9f8a, clickElement {id=243a02f1-b61b-43c3-88ed-afcbbd8324c0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60562}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60562/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ffb55988dc3d6547a21f548de5eb9f8a)] -> xpath: //button[@type='submit']]
+Session ID: ffb55988dc3d6547a21f548de5eb9f8a
+01:19:42.924 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='alert alert-success']' (tried for 15 second(s) with 500 milliseconds interval)
+01:22:25.670 [main] INFO  stepDefinitions.HomePageSteps - element click intercepted: Element is not clickable at point (435, 1218)
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1879e0e207b9d1a9363be172ee027d26, clickElement {id=3f51d822-7c85-40cd-87ee-8334cebb72b9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60918/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1879e0e207b9d1a9363be172ee027d26)] -> xpath: //button[@type='submit']]
+Session ID: 1879e0e207b9d1a9363be172ee027d26
+01:22:39.731 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
+01:28:58.447 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
+16:02:58.352 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
+16:07:20.452 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
+16:11:24.302 [main] INFO  stepDefinitions.HomePageSteps - Profile values updated correctly.
