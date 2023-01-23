@@ -22,3 +22,54 @@ Session ID: 1879e0e207b9d1a9363be172ee027d26
 16:02:58.352 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
 16:07:20.452 [main] INFO  stepDefinitions.HomePageSteps - One or more profile fields were not updated correctly.
 16:11:24.302 [main] INFO  stepDefinitions.HomePageSteps - Profile values updated correctly.
+23:52:44.826 [main] INFO  stepDefinitions.HomePageSteps - element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a1ac870661ab5060316e3a7c70b7317, sendKeysToElement {id=d7764591-bbf6-4479-9b6e-f36c12ce5db5, value=[Ljava.lang.CharSequence;@454bcbbf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61892/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8a1ac870661ab5060316e3a7c70b7317)] -> id: select2-hotels_city-container]
+Session ID: 8a1ac870661ab5060316e3a7c70b7317
+23:55:57.343 [main] INFO  stepDefinitions.HomePageSteps - element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d32ad5b54641fb6ec30ba6bb8b010f83, sendKeysToElement {id=c65b8dd6-073f-4189-b2ee-350a806cd55a, value=[Ljava.lang.CharSequence;@454bcbbf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62223}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62223/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d32ad5b54641fb6ec30ba6bb8b010f83)] -> class name: select2-selection__rendered]
+Session ID: d32ad5b54641fb6ec30ba6bb8b010f83
+23:59:57.222 [main] INFO  stepDefinitions.HomePageSteps - element click intercepted: Element <span class="select2-selection__rendered" id="select2-hotels_city-container" role="textbox" aria-readonly="true" title="..."> Search by City</span> is not clickable at point (301, 266). Other element would receive the click: <input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="searchbox" aria-autocomplete="list" aria-controls="select2-hotels_city-results">
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc316ab0f1defc4c4922c5fee4724c92, clickElement {id=85c81bf7-1c94-4944-bc80-af46f54c409c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62640/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (fc316ab0f1defc4c4922c5fee4724c92)] -> class name: select2-selection__rendered]
+Session ID: fc316ab0f1defc4c4922c5fee4724c92
+14:50:17.704 [main] INFO  stepDefinitions.HomePageSteps - Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (2e1d0155fb5fc2d52af8ecf5691437bb)] -> xpath: (//div[@class='datepicker dropdown-menu'])[2]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54022}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54022/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e1d0155fb5fc2d52af8ecf5691437bb
+23:41:59.116 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/section/div/div/form/div/div/div[3]/div/div/div/div/ol/li[11]/div/div/div/select"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [307e5e21a9a3715a55888dc37ec098e5, findChildElement {id=86478087-9921-4d7e-88e5-00e9a997f3fb, using=xpath, value=/html/body/section[1]/section/div/div/form/div/div/div[3]/div/div/div/div/ol/li[11]/div/div/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53702}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53702/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 307e5e21a9a3715a55888dc37ec098e5
+23:43:36.800 [main] INFO  stepDefinitions.HomePageSteps - no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/section/div/div/form/div/div/div[3]/div/div/div/div/ol/li[0]/div/div/div/select"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ea33e34b7858709bcdd90bf675db5bd, findChildElement {id=5e942edb-92af-4b45-9786-98a36c8f95a6, using=xpath, value=/html/body/section[1]/section/div/div/form/div/div/div[3]/div/div/div/div/ol/li[0]/div/div/div/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\PRIYAN~1.SHA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53897/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ea33e34b7858709bcdd90bf675db5bd
