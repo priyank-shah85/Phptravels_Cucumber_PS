@@ -44,6 +44,9 @@ public class HomePageSteps {
 		if (br.equals("chrome")) {
 			ChromeOptions coptions = new ChromeOptions();
 			coptions.setExperimentalOption("excludeSwitches", new String[] {"enable-automation"});
+			//coptions.addArguments("--password-store=basic");
+			//coptions.setExperimentalOption("credentials_enable_service", false);
+			//coptions.setExperimentalOption("profile.password_manager_enabled", false);
 			driver = new ChromeDriver(coptions);
 		} else if (br.equals("firefox")) {
 			driver = new FirefoxDriver();
@@ -83,6 +86,17 @@ public class HomePageSteps {
 			Assert.assertTrue("User has redirected to wrong page.", comparePageHeading);
 		} catch(Exception e)
 		{
+			logger.info(e.getMessage());
+		}
+	}
+	
+	@And("user accepts all cookies")
+	public void user_accepts_all_cookies() {
+		try {
+			hp = new HomePage(driver);
+			hp.clickAcceptCookies();
+		}
+		catch (Exception e){
 			logger.info(e.getMessage());
 		}
 	}

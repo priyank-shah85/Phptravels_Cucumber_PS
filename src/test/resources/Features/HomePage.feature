@@ -7,6 +7,7 @@ I want to login with valid credentials
 Background:
 	Given user navigates to "https://phptravels.net/login"
 	When user validates the page heading as "Login"
+	And user accepts all cookies
 
 @smoke @sanity @regression @Critical
 Scenario: Successful login with valid credentials.

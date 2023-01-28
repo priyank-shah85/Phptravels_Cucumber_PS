@@ -22,6 +22,9 @@ public class HomePage extends BasePage{
 	@FindBy(xpath = "//h5[@class='modal-title title']")
 	WebElement msgPageHeading;
 	
+	@FindBy(id = "cookie_stop")
+	WebElement acceptCookies;
+	
 	@FindBy(xpath = "//input[@type='email' and @name='email']")
 	WebElement txtEmail;
 	
@@ -73,6 +76,10 @@ public class HomePage extends BasePage{
 		{
 			return false;
 		}
+	}
+	
+	public void clickAcceptCookies() {
+		acceptCookies.click();
 	}
 	
 	public void enterEmail(String email) {

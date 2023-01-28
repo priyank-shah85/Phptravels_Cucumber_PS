@@ -4,6 +4,7 @@ I want to verify different elements from Dashboard.
 Background:
 	Given user navigates to "https://phptravels.net/login"
 	When user validates the page heading as "Login"
+	And user accepts all cookies
 	And user enters Email as "user@phptravels.com"
 	And user enters Password as "demouser"
 	And user clicks on Login button
