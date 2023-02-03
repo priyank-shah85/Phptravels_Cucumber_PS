@@ -35,6 +35,36 @@ public class AdminDashboardSteps {
 		}
 	}
 	
+	@And("admin user expands Hotels module")
+	public void admin_user_expands_hotels_module() {
+		try {
+			ad.clickHotelsModule();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	@And("admin user clicks on Hotels sub-module")
+	public void admin_user_clicks_on_hotels_submodule() {
+		try {
+			ad.clickHotelsSubModule();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	@And("admin user clicks on Hotels option")
+	public void admin_user_clicks_on_hotels_option() {
+		try {
+			ad.clickHotelsOption();
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
 	@And("admin user clicks on SEARCH link")
 	public void admin_user_clicks_on_search_link() {
 		try {
@@ -81,6 +111,16 @@ public class AdminDashboardSteps {
 		try {
 			ad.searchResultsInTable(columnName, value);
 			// logger.info(ad.currency + " and " + ad.balance);
+		}
+		catch(Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
+	
+	@And("admin user noted down Stars and Discount for record with {string} as {string}")
+	public void admin_user_noted_down_stars_and_discount_for_record_with_as(String name, String value) {
+		try {
+			ad.searchResultInHotelTable(name, value);
 		}
 		catch(Exception e) {
 			logger.info(e.getMessage());

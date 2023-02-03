@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 			// features= {".//src/test/resources/Features/"},
 			// features = { ".//src/test/resources/Features/HomePage.feature" },
 			// features = { ".//src/test/resources/Features/CustomerDashboard.feature" },
-			features = { ".//src/test/resources/Features/Hotels.feature" },
+			 features = { ".//src/test/resources/Features/Hotels.feature" },
+			// features = { ".//src/test/resources/Features/Flights.feature" },
 			// features="@target/rerun.txt", // Runs only failures
 			glue = "stepDefinitions",
 			plugin = 
